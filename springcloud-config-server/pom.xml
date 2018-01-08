@@ -16,6 +16,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+
         <!--spring Security安全服务-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

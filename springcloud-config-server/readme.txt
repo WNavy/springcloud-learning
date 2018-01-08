@@ -4,4 +4,6 @@ url:/{application}/{profile}/{label}
 {application}-{profile}.yml/{application}-{profile}.properties/{application}.yml/{application}.properties;
 /{label}/{application}-{profile}.properties
 
-2、每次获取配置的时候，从Git远程仓库获取最新的配置到本地，然后在本地Git仓库中读取并返回。当远程仓库无法获取时，直接将本地内容返回
+2、不带{label}分支信息，默认访问master分支
+
+3、每次获取配置的时候，从Git远程仓库获取最新的配置到本地，然后在本地Git仓库中读取并返回。当远程仓库无法获取时，直接将本地内容返回
